@@ -1,0 +1,23 @@
+This template executes a combo of commands to create a contact creation request.
+Lines marked with (optional) can be removed. If used you need to remove “(optional)”.
+
+----templatestart
+mailtemplateversion.....: 2.0
+agreementsaccepted......: YES
+
+command[1]..............: Login
+API-key.................: 
+
+command[2]..............: CreateContact
+firstname...............:
+lastname................:
+organization............:
+orgnr...................:
+address1................:
+zipcode.................:
+city....................:
+countrycode.............:
+phone...................:
+Fax.....................: (optional)
+email...................:
+----templateend
