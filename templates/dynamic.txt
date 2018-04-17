@@ -1,0 +1,12 @@
+#This template shows how you can interact with API Endpoints that are not documented in the templates directory
+#Lines marked with (optional) can be removed. If used you need to remove “(optional)”.
+
+----templatestart
+mailtemplateversion.....: 2.0
+agreementsaccepted......: YES
+command[1]..............: Login
+API-key.................: Your API-key
+
+command[2]..............: domain/domainlist
+requesttype...........: GET
+----templateend
