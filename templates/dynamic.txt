@@ -1,5 +1,6 @@
-#This template shows how you can interact with API Endpoints that are not documented in the templates directory
-#Lines marked with (optional) can be removed. If used you need to remove “(optional)”.
+#This template shows how you can interact with API Endpoints that are not documented in the templates directory.
+#Note that ALL templates must contain the Login Command
+#A dynamic command must contain the API endpoint and the requesttype in accordance with the API documentation.
 
 ----templatestart
 mailtemplateversion.....: 2.0
@@ -7,6 +8,7 @@ agreementsaccepted......: YES
 command[1]..............: Login
 API-key.................: Your API-key
 
-command[2]..............: domain/domainlist
-requesttype...........: GET
+command[2]..............: API-endpoint you want to use. Examples of API endpoints: domain/searchdomain, domain/domainlist
+requesttype...........: Can be GET, POST, PUT or DELETE depending on the endpoint you want to use
+API-parameter...........: Value
 ----templateend
